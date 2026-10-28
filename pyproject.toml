@@ -1,0 +1,18 @@
+
+[project]
+name = "ng8-metadata"
+version = "0.17.0"
+description = "ComfyUI nodes for saving images and videos with creator metadata, responsive video previews, and VHS metadata tagging."
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Network-Guy8/ComfyUI-NG8-Metadata"
+Documentation = "https://github.com/Network-Guy8/ComfyUI-NG8-Metadata#readme"
+"Bug Tracker" = "https://github.com/Network-Guy8/ComfyUI-NG8-Metadata/issues"
+
+[tool.comfy]
+PublisherId = "network-guy8"
+DisplayName = "NG8 Metadata"
+Icon = ""
