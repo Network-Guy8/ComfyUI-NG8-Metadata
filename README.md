@@ -1,10 +1,12 @@
-## NG8 Metadata v0.17 Beta — Responsive Video Preview
+## NG8 Metadata v0.17.1 Beta — Image & Video Previews
 
 The first public beta release of **ComfyUI-NG8-Metadata**, a collection of custom nodes for saving images and videos with embedded creator metadata.
 
 Designed for AI content creators who want to preserve attribution information in their generated media.
 
 ### Features
+
+- **Image Thumbnail Preview** — Display saved image thumbnails directly inside the NG8 Save Image node.
 
 - **Image Metadata Saving** — Save generated images with embedded creator and copyright metadata.
 - **Native Video Saving** — Save videos directly from ComfyUI with embedded metadata.
@@ -14,7 +16,12 @@ Designed for AI content creators who want to preserve attribution information in
 - **No Video Re-encoding for Metadata Updates** — Preserve the original video quality.
 - **Creator Attribution** — Support for creator names, copyright information, and other metadata fields.
 
-### What's New in v0.17
+### What's New in v0.17.1
+
+- Added native image thumbnail previews to NG8 Save Image.
+- Preserved existing image metadata and output functionality.
+
+### Previously Added in v0.17
 
 - Removed the fixed 420px video preview height restriction.
 - Improved preview resizing when adjusting node dimensions.
@@ -34,13 +41,4 @@ This is a public beta release. Feedback, bug reports, and feature suggestions ar
 
 **Created by @Network_Guy8 (NG8)**
 
-*Version 0.17 Beta — October 2026*
-
-### NG8 Save Image Thumbnail Preview
-
-NG8 Save Image + Creator Metadata now displays a thumbnail of the saved image directly inside the ComfyUI node after execution.
-
-- Supports the existing PNG, JPEG, WebP, and TIFF saving options.
-- Preserves creator, copyright, and description metadata.
-- Continues returning the original IMAGE and saved file paths.
-- Uses ComfyUI's native image preview system.
+*Version 0.17.1 Beta — October 2026*
