@@ -35,3 +35,12 @@ This is a public beta release. Feedback, bug reports, and feature suggestions ar
 **Created by @Network_Guy8 (NG8)**
 
 *Version 0.17 Beta — October 2026*
+
+### NG8 Save Image Thumbnail Preview
+
+NG8 Save Image + Creator Metadata now displays a thumbnail of the saved image directly inside the ComfyUI node after execution.
+
+- Supports the existing PNG, JPEG, WebP, and TIFF saving options.
+- Preserves creator, copyright, and description metadata.
+- Continues returning the original IMAGE and saved file paths.
+- Uses ComfyUI's native image preview system.
