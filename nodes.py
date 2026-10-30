@@ -212,7 +212,15 @@ class NG8SaveImage:
                 paths.append(str(target))
             finally:
                 if os.path.exists(tmp): os.unlink(tmp)
-        return (images, '\n'.join(paths))
+        return {
+            'ui': {
+                'images': [
+                    {'filename': Path(path).name, 'subfolder': '', 'type': 'output'}
+                    for path in paths
+                ]
+            },
+            'result': (images, '\n'.join(paths))
+        }
 
 class NG8TagVideo:
     @classmethod
@@ -389,3 +397,4 @@ class NG8TagVHSVideo:
 
 NODE_CLASS_MAPPINGS['NG8TagVHSVideo'] = NG8TagVHSVideo
 NODE_DISPLAY_NAME_MAPPINGS['NG8TagVHSVideo'] = 'NG8 Tag VHS Video In Place (No Re-encode)'
+
