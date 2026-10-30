@@ -1,7 +1,7 @@
 
 [project]
 name = "ng8-metadata"
-version = "0.17.0"
+version = "0.17.1"
 description = "ComfyUI nodes for saving images and videos with creator metadata, responsive video previews, and VHS metadata tagging."
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
